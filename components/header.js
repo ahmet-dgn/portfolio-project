@@ -10,10 +10,10 @@ export default function Header() {
   };
 
   return (
-    <nav className="container mx-auto h-24 align-middle flex items-center justify-between">
+    <nav className="container mx-auto h-24  flex items-center justify-between">
       <Link
         href="/"
-        className=" md:text-xl text-l font-bold uppercase p-1 md:p-2.5 border-2 rounded-md leading-5 border-sky-900 inline-block hover:text-sky-600 hover:border-sky-600 "
+        className=" md:text-xl text-l font-bold uppercase p-1 md:p-2.5 border-2 rounded-md leading-5 border-sky-900 inline-block hover:text-custom-hover hover:border-custom-hover "
       >
         Ahmet Can Doğan
       </Link>
@@ -39,7 +39,7 @@ export default function Header() {
           <li className="mb-4 md:mb-0">
             <Link
               href="/"
-              className="uppercase text-base font-medium pl-6 hover:text-sky-600 "
+              className="uppercase text-base font-medium pl-6 hover:text-custom-hover"
             >
               HOME
             </Link>
@@ -47,7 +47,7 @@ export default function Header() {
           <li className="mb-4 md:mb-0">
             <Link
               href="/"
-              className="uppercase text-base font-medium pl-6 hover:text-sky-600"
+              className="uppercase text-base font-medium pl-6 hover:text-custom-hover"
             >
               ABOUT
             </Link>
@@ -55,7 +55,7 @@ export default function Header() {
           <li className="mb-4 md:mb-0">
             <Link
               href="/"
-              className="uppercase text-base font-medium pl-6 hover:text-sky-600"
+              className="uppercase text-base font-medium pl-6 hover:text-custom-hover"
             >
               PROJECTS
             </Link>
@@ -63,7 +63,7 @@ export default function Header() {
           <li>
             <Link
               href="/"
-              className="uppercase text-base font-medium pl-6 hover:text-sky-600"
+              className="uppercase text-base font-medium pl-6 hover:text-custom-hover"
             >
               CONTACT
             </Link>
