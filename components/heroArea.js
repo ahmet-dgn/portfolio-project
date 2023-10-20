@@ -3,7 +3,13 @@ export default function HeroArea() {
   return (
     <div className=" py-24 bg-custom-light flex justify-center bg-[url('/images/hero-bg.png')] bg-cover bg-no-repeat bg-center">
       <div className=" container flex items-center justify-center flex-col md:flex-row">
-        <Image src="/images/ahmet-can-dogan.png" width={266} height={316} />
+        <Image
+          src="/images/ahmet-can-dogan.png"
+          width={266}
+          height={316}
+          alt="Ahmet Can Doğan"
+          title="Ahmet Can Doğan"
+        />
         <div className="md:pl-16 max-w-sm pt-10 md:pt-0 text-center md:text-left">
           <p className="font-display pb-1 text-3xl">Hello</p>
           <h1 className="text-2xl pb-4 font-bold ">
