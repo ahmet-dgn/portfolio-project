@@ -16,13 +16,37 @@ export default function Projects() {
       </p>
       <div className="space-y-8 w-full flex justify-center  items-center flex-col">
         <div className="p-4  rounded-lg bg-white drop-shadow-md flex  w-full max-w-6xl flex-col lg:flex-row">
-          <div className="relative w-full min-h-[400px]">
+          <div className="relative w-full min-h-[300px] sm:min-h-[400px] border-gray-200 border rounded-lg">
+            <Image
+              src="/images/publishing_house.png"
+              fill
+              alt="Coffe Shop Project"
+              title="Coffe Shop Project"
+              className="rounded object-cover  "
+            />
+          </div>
+          <div className="flex flex-col items-center justify-center  text-center min-h-[400px] w-full">
+            <p className="text-h5 mb-2 uppercase font-bold text-gray-900">
+              {" "}
+              Headless Wordpress CMS WIth Next.js
+            </p>
+            <p className="mb-6 max-w-sm text-gray-600 ">
+              I am currently working on a publishing house website. I use
+              Next.js on the frontend and headless WordPress for CMS.
+            </p>
+            <p className="mb-6 max-w-sm text-gray-600 ">
+              It will be available in a few weeks.
+            </p>
+          </div>
+        </div>
+        <div className="p-4  rounded-lg bg-white drop-shadow-md flex  w-full max-w-6xl flex-col lg:flex-row">
+          <div className="relative w-full min-h-[300px] sm:min-h-[400px]">
             <Image
               src="/images/coffeShop.png"
               fill
               alt="Coffe Shop Project"
               title="Coffe Shop Project"
-              className="rounded object-cover "
+              className="rounded object-cover  "
             />
           </div>
           <div className="flex flex-col items-center justify-center  text-center min-h-[400px] w-full">
@@ -82,7 +106,7 @@ export default function Projects() {
           </div>
         </div>
         <div className="p-4  rounded-lg bg-white drop-shadow-md flex  w-full max-w-6xl flex-col lg:flex-row">
-          <div className="relative w-full min-h-[400px]">
+          <div className="relative w-full  min-h-[300px] sm:min-h-[400px]">
             <Image
               src="/images/expenseTracker.png"
               fill
