@@ -25,7 +25,7 @@ export default function Home() {
             property="og:description"
             content="I specialize in building the frontend of websites and web applications, ensuring they contribute to the overall success of the product."
           />
-          <meta property="og:image" content="/images/favicon.ico" />
+          <meta property="og:image" content="/images/ahmet-can-dogan.png" />
           <meta property="og:url" content="https://ahmetcandgn.com/" />
         </Head>
 
