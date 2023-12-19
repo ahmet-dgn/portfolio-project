@@ -18,6 +18,34 @@ export default function Projects() {
         <div className="p-4  rounded-lg bg-white drop-shadow-md flex  w-full max-w-6xl flex-col lg:flex-row">
           <div className="relative w-full min-h-[300px] sm:min-h-[400px] border-gray-200 border rounded-lg">
             <Image
+              src="/images/figma-ui-kit.jpg"
+              fill
+              alt="Coffe Shop Project"
+              title="Coffe Shop Project"
+              className="rounded object-cover  "
+            />
+          </div>
+          <div className="flex flex-col items-center justify-center  text-center min-h-[400px] w-full">
+            <p className="text-h5 mb-2 uppercase font-bold text-gray-900">
+              {" "}
+              Figma UI Kit
+            </p>
+            <p className="mb-6 max-w-sm text-gray-600 ">
+              I designed and developed this user interface kit completely from
+              scratch. It allows theme customization with the style settings
+              included in the kit.
+            </p>
+            <p className="text- font-medium mb-2 text-gray-600 ">Tools Used</p>
+            <div className="max-w-xs flex flex-wrap justify-center mb-9">
+              <p className="p-2.5 bg-gray-300 text-gray-600 font-medium leading-5 rounded m-1">
+                Figma
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="p-4  rounded-lg bg-white drop-shadow-md flex  w-full max-w-6xl flex-col lg:flex-row">
+          <div className="relative w-full min-h-[300px] sm:min-h-[400px] border-gray-200 border rounded-lg">
+            <Image
               src="/images/publishing_house.png"
               fill
               alt="Coffe Shop Project"
