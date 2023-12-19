@@ -28,18 +28,30 @@ export default function Projects() {
           <div className="flex flex-col items-center justify-center  text-center min-h-[400px] w-full">
             <p className="text-h5 mb-2 uppercase font-bold text-gray-900">
               {" "}
-              Figma UI Kit
+              FIGMA UI KIT
             </p>
             <p className="mb-6 max-w-sm text-gray-600 ">
               I designed and developed this user interface kit completely from
-              scratch. It allows theme customization with the style settings
-              included in the kit.
+              scratch.
+            </p>
+            <p className="mb-6 max-w-sm text-gray-600 ">
+              It allows theme customization with the style settings included in
+              the kit.
             </p>
             <p className="text- font-medium mb-2 text-gray-600 ">Tools Used</p>
             <div className="max-w-xs flex flex-wrap justify-center mb-9">
               <p className="p-2.5 bg-gray-300 text-gray-600 font-medium leading-5 rounded m-1">
                 Figma
               </p>
+            </div>
+            <div className="flex flex-wrap justify-center ">
+              <Link
+                href="https://www.figma.com/file/JHdshkZlkHr7bzZOdNAxH7/UI-KIT?type=design&node-id=0%3A1&mode=design&t=8ikE5Rt9f4rMJ4Zj-1"
+                className="p-2 font-medium leading-2 rounded border-2 border-custom-primary hover:bg-custom-primary text-custom-primary hover:text-white m-1.5  block"
+                target="_blank"
+              >
+                Figma
+              </Link>
             </div>
           </div>
         </div>
