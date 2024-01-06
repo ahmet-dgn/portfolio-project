@@ -24,7 +24,7 @@ export default function Projects() {
           <div className="flex flex-col items-center justify-center  text-center min-h-[400px] w-full">
             <p className="text-h5 mb-2 uppercase font-bold text-gray-900">
               {" "}
-              Headless Strapı CMS WIth Next.js (Multilang)
+              Headless Strapı CMS WIth Next.js (Multılang)
             </p>
             <p className="mb-2 max-w-sm text-gray-600 ">
               This is a corporate website project for a publishing house.
