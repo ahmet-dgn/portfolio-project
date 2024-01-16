@@ -10,7 +10,7 @@ export default function Home() {
     <div className="text-sky-900 ">
       <>
         <Head>
-          <title>Ahmet Can Doğan - Project Manager</title>
+          <title>Ahmet Can Doğan - Front-End Developer</title>
           <meta name="robots" content="noindex" />
           <meta
             name="description"
@@ -19,7 +19,7 @@ export default function Home() {
           <link rel="icon" href="/images/favicon.ico" />
           <meta
             property="og:title"
-            content="Ahmet Can Doğan - Project Manager"
+            content="Ahmet Can Doğan - Front-End Developer"
           />
           <meta
             property="og:description"

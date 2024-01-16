@@ -16,7 +16,7 @@ export default function HeroArea() {
             Hello
           </p>
           <h1 className="text-h4 pb-4 font-bold text-custom-primary">
-            I’m a Project Manager and Front-End Developer based in Türkiye.
+            I’m a Front-End Developer based in Türkiye.
           </h1>
           <p className="pb-4 text-custom-primary">
             My name is Ahmet Can Doğan. I specialize in building the frontend of
