@@ -4,7 +4,7 @@ export default function JobExperince() {
       <div className="container mx-auto flex justify-center flex-col">
         <div className="text-center max-w-2xl mx-auto space-y-4">
           <h2 className="text-h4 font-bold text-custom-dark border-2 rounded-md leading-5 border-custom-dark p-2.5 mb-6 inline-block">
-            JOB EXPERRINCE
+            JOB EXPERIENCE
           </h2>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8	">
                 <div className="w-full  py-8 px-8  rounded-lg border-2 ">
