@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <div className="py-24 bg-white" id="about">
+    <div className="py-24 " id="about">
       <div className="container mx-auto flex justify-center flex-col">
         <div className="text-center max-w-2xl mx-auto">
           <h2 className="text-h4 font-bold text-custom-dark border-2 rounded-md leading-5 border-custom-dark p-2.5 mb-6 inline-block">
@@ -21,8 +21,7 @@ export default function About() {
             I have the skills to create UI/UX designs using Figma or Adobe XD,
             and I can faithfully convert designs into HTML and CSS with
             pixel-perfect precision. I have a solid understanding of React and
-            Next.js basics, such as components, states, props, and file-based
-            routing. I am continuously learning and improving my knowledge of
+            Next.js. I am continuously learning and improving my knowledge of
             React and Next.js.
           </p>
           <div className="mx-auto">

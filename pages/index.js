@@ -4,14 +4,13 @@ import About from "@/components/about";
 import Footer from "@/components/footer";
 import Projects from "@/components/projects";
 import Head from "next/head";
-
+import JobExperince from "@/components/jobExperince";
 export default function Home() {
   return (
     <div className="text-sky-900 ">
       <>
         <Head>
           <title>Ahmet Can Doğan - Front-End Developer</title>
-          <meta name="robots" content="noindex" />
           <meta
             name="description"
             content="I specialize in building the frontend of websites and web applications, ensuring they contribute to the overall success of the product."
@@ -32,6 +31,7 @@ export default function Home() {
         <Navbar />
         <HeroArea />
         <About />
+        <JobExperince/>
         <Projects />
         <Footer />
       </>
